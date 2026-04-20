@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>.active { color: green; }</style>
+<p id="checkClass" class="active">Check class</p>
+<script>
+    const has = document.getElementById('checkClass').classList.contains('active');
+    console.log(has); // true
+</script>
+</body>
+</html>
